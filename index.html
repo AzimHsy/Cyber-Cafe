@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cyber Cafe - Azim</title>
+    <title>Cyber Cafe</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
@@ -15,6 +15,8 @@
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="discover.css" />
+    <link rel="stylesheet" href="facilities.css" />
+    <link rel="stylesheet" href="location.css" />
   </head>
   <body>
     <!DOCTYPE html>
@@ -43,9 +45,11 @@
           <div class="header-container">
             <h1 class="welcome-text">Welcome to Cyber Cafe</h1>
             <p>
-              Experience the ultimate cyber cafe with high-speed internet,
-              gaming consoles, and a cozy atmosphere. Perfect for work, study,
-              or play.
+              We are a group of enthusiastic students, embarking on an exciting
+              project to design and plan a cyber café. This initiative combines
+              creativity and technical expertise as we select hardware and
+              software, design a network topology, configure IP addressing, and
+              choose the best internet services.
             </p>
             <div class="btn">
               <button type="button" class="btn-light">Explore Now</button>
@@ -172,6 +176,156 @@
                 Perfect for a quick break or to fuel your gaming sessions.
               </p>
               <button>Learn more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="facilities-preview">
+          <div class="facilities-preview-container">
+            <h1 class="header-facilities">
+              Explore Our State-of-the-Art Facilities
+            </h1>
+            <div class="right-section-preview">
+              <p class="header-text">
+                At Azim Cafe, we offer a modern and comfortable environment
+                equipped with 8 high-performance computers and 3 PlayStation 5
+                consoles. Whether you’re here to work, study, or game, our
+                facilities are designed to meet your needs.
+              </p>
+              <div class="facilities">
+                <div class="computers">
+                  <h1>Computers</h1>
+                  <p>
+                    Experience fast internet and the latest software on our 8
+                    fully equipped computers.
+                  </p>
+                </div>
+                <div class="gaming-zone">
+                  <h1>Gaming Zone</h1>
+                  <p>
+                    Enjoy the latest games on our 3 PlayStation 5 consoles in a
+                    vibrant setting.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="price-section">
+            <div class="price-section-container">
+              <h1>Affordable Pricing</h1>
+              <p>
+                Explore our competitive rates for computer access and gaming
+                sessions.
+              </p>
+            </div>
+            <div class="pricing-container">
+              <div class="card">
+                <h2>Hourly Computer Access</h2>
+                <h3>$5 per hour</h3>
+                <p>
+                  Ideal for those needing quick access to high-speed computers.
+                </p>
+                <ul>
+                  <box-icon name="check-double"></box-icon>
+                  <li>Access to high-speed computers</li>
+                </ul>
+                <ul>
+                  <box-icon name="check-double"></box-icon>
+                  <li>Printing services available at an extra cost</li>
+                </ul>
+                <button>Choose Plan</button>
+              </div>
+
+              <div class="card">
+                <h2>Gaming Session</h2>
+                <h3>$10 per hour</h3>
+                <p>Perfect for gamers looking to enjoy the latest titles.</p>
+                <ul>
+                  <box-icon name="check-double" color="#fafafa"></box-icon>
+                  <li>Access to PlayStation 5 consoles</li>
+                </ul>
+                <ul>
+                  <box-icon name="check-double" color="#fafafa"></box-icon>
+                  <li>Choice of latest games</li>
+                </ul>
+                <button>Start Gaming</button>
+              </div>
+
+              <div class="card">
+                <h2>Combo Package</h2>
+                <h3>$12 per hour</h3>
+                <p>Get the best of both worlds with our combo offer.</p>
+                <ul>
+                  <box-icon name="check-double"></box-icon>
+                  <li>1 hour of computer access + 1 hour of gaming</li>
+                </ul>
+                <ul>
+                  <box-icon name="check-double  "></box-icon>
+                  <li>Includes a complimentary snack</li>
+                </ul>
+                <button>Grab Combo</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="location-container">
+          <div class="contact-container">
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9524645527185!2d101.62969047501849!3d3.1072770968682906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4be41acdf015%3A0x468cbbcfea9200ac!2s6%2C%20Jalan%2014%2F36%2C%20Seksyen%2014%2C%2046100%20Petaling%20Jaya%2C%20Selangor!5e0!3m2!1sen!2smy!4v1735744405438!5m2!1sen!2smy"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
+            <div class="form-section">
+              <h2>Get in Touch</h2>
+              <p>We'd love to hear from you!</p>
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Type your message"
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="form-group">
+                  <input type="checkbox" id="terms" name="terms" required />
+                  <label for="terms">I accept the Terms</label>
+                </div>
+
+                <button type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
